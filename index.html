@@ -130,6 +130,42 @@
 </div>
 -->
 <div class="wrap">
+    <script>
+    var imgsrc = [
+                "images/butterfly.jpg", 
+                "images/1.jpg",
+                "images/2.jpg",
+                "images/3.jpg",
+                "images/4.jpg",
+                "images/5.jpg",
+                "images/6.jpg",
+                "images/7.jpg",
+                "images/8.jpg",
+                "images/9.jpg",
+                "images/10.jpg"
+                ];
+    var imghref = [
+                "http://bit.ly/stormnfaith", 
+                "http://on.fb.me/1mAX4IB",
+                "http://on.fb.me/1vnSmNZ",
+                "http://on.fb.me/YpFDzw",
+                "http://on.fb.me/1rqNYx1",
+                "http://on.fb.me/1u3Xcl6",
+                "http://on.fb.me/102GgQN",
+                "http://on.fb.me/1rl6yZS",
+                "http://on.fb.me/1sC2yWh",
+                "http://on.fb.me/1vot3w4",
+                "http://on.fb.me/1rqOrze"
+                ];
+    for( var i =0; i < imgsrc.length; i++){
+        document.write("<div class=\"box\">");
+        document.write("<a href = \"" + imghref[i] + "\" target = \"_blank\">");
+        document.write("<img class = \"picture\" src=\'" + imgsrc[i] + "\'>");
+        document.write("</a>");
+        document.write("</div>");
+    }
+    </script>
+<!--
     <div class="box">
             <a href = "http://bit.ly/stormnfaith" target = "_blank">
                 <img class = "picture" src='images/butterfly.jpg'>
@@ -185,6 +221,7 @@
             <img class = "picture" src='images/10.jpg'>
             </a>
     </div>
+-->
 </div>
 </body>
 </html>
